@@ -153,10 +153,10 @@
 	</div>
 
 	<div class="ft-page page-21">
-		<h3>
-			Sadik was so happy<br>
-			When Stuti accepted his love<br>
-			Even tho they were far away
+		<h3>Sadik was so happy  <br>
+			When Stuti accepted his love <br>
+			Even tho they were far away <br>
+
 		</h3>
 		<img src="img/iali59.png">
 	</div>
@@ -211,7 +211,7 @@
 	</div>
 
 	<div class="ft-page page-30">
-		<h3>Later, they will move in together</h3>
+		<h3>Later, they willmove in together</h3>
 		<img src="img/iali76.gif">
 	</div>
 
@@ -319,7 +319,9 @@
 		<img src="img/iali57.gif">
 		<h3>
 			Watching the gifts being prepared one by one<br>
-			Sadik felt so happy
+			Sadik felt so happy<br>
+			Because he imagined Stuti receiving them<br>
+			With joy on her face
 		</h3>
 	</div>
 
@@ -327,7 +329,9 @@
 		<img src="img/iali58.jpg">
 		<h3>
 			Thinking about a lifetime ahead<br>
-			Sadik felt happy
+			Sadik felt happy<br>
+			Because he could travel the world<br>
+			With Stuti
 		</h3>
 	</div>
 
@@ -346,7 +350,8 @@
 	<div class="ft-page page-50">
 		<p class="text">
 			One day later, Stuti said she was afraid of being alone,
-			so Sadik took her to her favourite beach.
+			so Sadik took her to her favourite beach. This was just a small moment in their happy life,
+			yet it belonged only to them.
 		</p>
 		<img src="img/iali50_1.jpg" class="img1">
 		<img src="img/iali50_2.jpg" class="img2">
@@ -355,7 +360,9 @@
 	<div class="ft-page page-51">
 		<p>
 			Stuti: How far is forever?<br>
-			Sadik: One second longer than time is forever. I will love you forever.
+			Sadik: One second longer than time is forever. I will love you forever.<br><br>
+			Stuti: How big is the world?<br>
+			Sadik: Wherever you go, that’s how big the world is.
 		</p>
 	</div>
 </div>
@@ -382,7 +389,7 @@
 			Sadik and Stuti’s story will continue forever.<br>
 			Whether exciting or ordinary, they will cherish it all.
 			<br><br><br>
-			<span>-- Double tap for a surprise</span>
+			<span>-- Press “Esc” for a surprise</span>
 		</p>
 	</div>
 </div>
@@ -394,28 +401,9 @@
 
 <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/all.min.js"></script>
+<!-- <script src="js/love.min.js"></script> -->
 
-<!-- MOBILE DOUBLE-TAP → SAME AS ESC -->
-<script>
-function showOverviewMobile() {
-	const escEvent = new KeyboardEvent("keyup", {
-		key: "Escape",
-		keyCode: 27,
-		which: 27,
-		bubbles: true
-	});
-	window.dispatchEvent(escEvent);
-}
 
-let lastTap = 0;
-document.addEventListener("touchend", function () {
-	const now = Date.now();
-	if (now - lastTap < 300) {
-		showOverviewMobile();
-	}
-	lastTap = now;
-});
-</script>
 
 </body>
 </html>
